@@ -1,3 +1,4 @@
+import 'package:circular_slider/orderStatus.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      home: OrderStatus(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
