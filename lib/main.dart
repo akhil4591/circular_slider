@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   var currentValue = 0;
   String text = 'Love It';
   String currentAnimation = '0';
-  String defaultAnimation = 'add';
+  String defaultAnimation = 'search';
 
   @override
   Widget build(BuildContext context) {
