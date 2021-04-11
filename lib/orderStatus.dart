@@ -7,7 +7,7 @@ class OrderStatus extends StatefulWidget {
 }
 
 class _OrderStatusState extends State<OrderStatus> {
-  var currentAnimation = "6";
+  var currentAnimation = "8";
   var text;
   @override
   void initState() {

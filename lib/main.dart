@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: OrderStatus(),
+      home: MyHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
